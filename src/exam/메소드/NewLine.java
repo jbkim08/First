@@ -14,6 +14,6 @@ public class NewLine {
     }
 
     public static void oneLine() {
-        System.out.println();
+        System.out.println(">");
     }
 }
