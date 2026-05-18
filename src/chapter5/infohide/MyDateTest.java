@@ -6,5 +6,6 @@ public class MyDateTest {
         date.setMonth(2);
         date.setDay(31);
         date.setYear(2018);
+        System.out.println(date);
     }
 }

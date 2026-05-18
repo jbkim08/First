@@ -18,6 +18,8 @@ public class MyDate {
             } else {
                 this.day = day;
             }
+        } else {
+            this.day = day;
         }
     }
 
@@ -27,6 +29,7 @@ public class MyDate {
 
     public void setMonth(int month) {
         this.month = month;
+        System.out.println("this :" + this);
     }
 
     public int getYear() {
