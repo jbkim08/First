@@ -13,6 +13,10 @@ public class OverridingTest3 {
 		
 		Customer vc = new VIPCustomer(10030, "나몰라", 2000);
 		System.out.println(vc.getCustomerName() +" 님이 지불해야 하는 금액은 " + vc.calcPrice(10000) + "원입니다.");
-		
+		//오버라이딩 : 같은 메소드를 하위 클래스에서 덮어씀
+		//오버로딩 : 이름만 같고 매개변수가 다른 메소드
+
+
+
 	}
 }

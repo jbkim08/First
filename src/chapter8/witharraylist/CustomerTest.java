@@ -6,7 +6,7 @@ public class CustomerTest {
 
 	static void main(String[] args) {
 		
-		ArrayList<Customer> customerList = new ArrayList<Customer>();
+		ArrayList<Customer> customerList = new ArrayList<>();
 		
 		Customer customerLee = new Customer(10010, "이순신");
 		Customer customerShin = new Customer(10020, "신사임당");
