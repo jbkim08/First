@@ -1,0 +1,11 @@
+package chapter8.inheritance;
+   
+public class CustomerTest3 {
+	 static void main(String[] args) {
+		  VIPCustomer customerKim = new VIPCustomer(10020, "������", 12345);
+		  // customerKim.setCustomerID(10020);
+		  // customerKim.setCustomerName("������");
+		  customerKim.bonusPoint = 10000;
+		  System.out.println(customerKim.showCustomerInfo());
+	 }
+}
