@@ -33,9 +33,8 @@ class Account {
 
     public boolean transfer(Account target, int amount) {
         if (balance < amount) {
-            return false;
+            return false; //계좌의 잔액이 송금금액보다 작을경우 false => 종료
         }
-
         /* 2. 현재 잔액에서 송금액을 이체대상 계좌로 전달하세요. */
         balance -= amount;
         target.balance += amount;

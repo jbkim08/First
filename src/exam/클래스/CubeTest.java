@@ -19,7 +19,7 @@ class Cube {
     // 생성자
     public Cube(int i) {
         /* 1. 생성자를 완성하세요. */
-        this.length = i;
+        length = i;
     }
 
     // 메소드(인스턴스 메소드) - 정육면체의 부피 반환
