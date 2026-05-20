@@ -23,20 +23,35 @@ class Drink{
     String name;
     double price;
     public void ordered() {
-        System.out.println("주문되었습니다.");
+        System.out.println(name + " 주문되었습니다.");
     }
 }
 class Juice extends Drink{
+    public Juice() {
+        name = "쥬스";
+    }
 }
 
 class Coffee extends Drink {
+    public Coffee() {
+        name = "커피";
+    }
 }
 
 class Beer extends Drink {
+    public Beer() {
+        name = "맥주";
+    }
 }
 
 class Water extends Drink {
+    public Water() {
+        name = "물";
+    }
 }
 
 class Tea extends Drink{
+    public Tea() {
+        name="차";
+    }
 }
