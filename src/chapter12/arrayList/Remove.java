@@ -24,6 +24,7 @@ public class Remove {
         dogs.add(new Dog("제니"));
         dogs.remove(1); //인덱스번호로 제거
         dogs.remove(d1);     //객체로 제거
+        dogs.remove(dogs.get(0));
         for (Dog d :dogs){
             System.out.println(d);
         }
