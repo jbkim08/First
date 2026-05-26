@@ -1,15 +1,21 @@
 package chapter12.arrayList;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 public class App {
     static void main() {
-        ArrayList<Integer> list = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
         list.add(7);
         list.add(9);
         list.add(123);
-        System.out.println(list.get(0));
-        System.out.println(list.get(1));
-        System.out.println(list.get(2));
+        displayList(list);
+    }
+    //인터페이스 리스트가 매개변수
+    private static void displayList(List<Integer> list){
+        for (Integer n : list){
+            System.out.println(n);
+        }
     }
 }
