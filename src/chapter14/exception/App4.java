@@ -11,6 +11,7 @@ class Thermostat{
 
 public class App4 {
     static void main() {
+        System.err.println("에러!!!");
         Thermostat stat = new Thermostat();
         try {
             stat.setTemperature(40);
