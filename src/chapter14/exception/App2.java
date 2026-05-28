@@ -12,10 +12,10 @@ public class App2 {
 
         try {
             number = Integer.parseInt(line); //문자열을 정수로
+            System.out.println("입력한 숫자는 : " + number);
         } catch (NumberFormatException e) {
             System.out.println("숫자 입력이 아닙니다.");
         }
-        System.out.println("입력한 숫자는 : " + number);
 
         scanner.close();
     }
